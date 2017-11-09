@@ -1,0 +1,13 @@
+div {
+  position: relative;
+  background-color:red;
+  border-style: solid;
+  max-height: 90vh;
+  max-width: 90vh;
+}
+
+div:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
