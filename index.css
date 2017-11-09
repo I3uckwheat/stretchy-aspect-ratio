@@ -1,4 +1,4 @@
-div {
+#box {
   position: relative;
   background-color:red;
   border-style: solid;
@@ -6,7 +6,7 @@ div {
   max-width: 90vh;
 }
 
-div:before {
+#box:before {
   content: "";
   display: block;
   padding-top: 100%;
